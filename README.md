@@ -11,11 +11,12 @@ film.pug: Renders details of a movie, including title, author, description, and 
 
 ## Routes:
 
-[GET] http://localhost:3000: Main page of the application. Renders home.pug.
-[GET] http://localhost:3000/film/:title: Displays data for a movie based on the title. Internally makes a request to the movie API to fetch the data. Should render film.pug.
-[POST] http://localhost:3000/film/: Sends a POST request to this route when completing the movie search form in home.pug. Using res.redirect() can be helpful for handling redirection.
-Instructions:
+- [GET] http://localhost:3000: Main page of the application. Renders home.pug.
+- [GET] http://localhost:3000/film/:title: Displays data for a movie based on the title. Internally makes a request to the movie API to fetch the data. Should render film.pug.
+- [POST] http://localhost:3000/film/: Sends a POST request to this route when completing the movie search form in home.pug. Using res.redirect() can be helpful for handling redirection.
 
-## Clone this repository.
-Install dependencies with npm install.
-Run the application with node app.js.
+## Instructions:
+
+1. Clone this repository.
+2. Install dependencies with npm install.
+3. Run the application with node app.js.
