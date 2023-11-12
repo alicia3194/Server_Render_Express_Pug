@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    title Home
+    link(rel="stylesheet", href="/css/style.css")  
+  body
+    h1 Search movies
+    form(action="/film", method="post")
+      label(for="title") Movie title:
+      input(type="text", name="title", id="title", required)
+      button(type="submit") Search
+    if error
+      p= error
+
+
+
+

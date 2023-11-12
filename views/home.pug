@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Home
+    link(rel="stylesheet", href="/css/style.css")
+  body
+    h1 Search Movie
+    form(action="/film", method="post")
+      label(for="title") Movie Title:
+      input(type="text", name="title", id="title", required)
+      button(type="submit") Search
+
+    if movie
+      h2 Last Search
+      p Title: #{movie.Title}
+      p Year: #{movie.Year}
+      p Director: #{movie.Director}
+
+    if error
+      p= error
+
