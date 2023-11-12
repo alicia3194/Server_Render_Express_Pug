@@ -1,8 +1,6 @@
 # Exercise - Server Render with Express + Pug
 
-![Movie Poster](https://github.com/alicia3194/Server_Render_Express_Pug/blob/main/image/films.jpeg)
 <img src="https://github.com/alicia3194/Server_Render_Express_Pug/blob/main/image/films.jpeg" alt="Movie Poster" width="300"/>
-
 
 Create a movie application for server rendering with Node.js and Pug. Utilize the provided movie API.
 
